@@ -3,3 +3,7 @@
 	name = Jackson Hughes
 [push]
 	default = current
+[core]
+	editor = vi
+[help]
+	autocorrect = 1
