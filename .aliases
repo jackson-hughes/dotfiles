@@ -1,0 +1,16 @@
+# system
+alias 'll=ls -lG --color=auto'
+
+# Git aliases
+alias 'gs=git status'
+alias 'ga=git add'
+alias 'gc=git commit'
+alias 'gcm=git commit -m'
+alias 'gcl=git clone'
+alias 'gch=git checkout'
+alias 'gd=git diff'
+alias 'gp=git push'
+alias 'gf=git pull --all'
+
+# Molecule
+alias 'molecule=docker run --rm -it -v "$(pwd)":/tmp/$(basename "${PWD}"):ro -v /var/run/docker.sock:/var/run/docker.sock -w /tmp/$(basename "${PWD}") quay.io/ansible/molecule:2.20 molecule'
